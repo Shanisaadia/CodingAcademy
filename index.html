@@ -10,9 +10,9 @@
 <body onload="init()" onkeyup="handleKey(event)">
   <h1>Mine Sweeper</h1>
   <div class="timer"></div>
-  <button id=1 class ="btn easy" onclick="onClick(this)">Easy</button>
-  <button id=2 class ="btn hard" onclick="onClick(this)">hard</button>
-  <button id=3 class ="btn extreme" onclick="onClick(this)">extreme</button>
+  <button class ="btn easy" onclick="checkLevel(1)">Easy</button>
+  <button class ="btn hard" onclick="checkLevel(2)">hard</button>
+  <button class ="btn extreme" onclick="checkLevel(3)">extreme</button>
 
   <h2 class="counter"></h2>
   <div class="victory"></div>
